@@ -1,0 +1,27 @@
+.div1
+{
+    background-color: brown;
+    padding: 1px;
+    margin: -9px;
+}
+#id1
+{
+    color: aquamarine;
+    font-size: 79px;
+    text-align: center;
+}
+.div2
+{
+    text-align:center;
+}
+.div3
+{
+    text-align: center;
+    background-color: red;
+    justify-content: center;
+    width: -webkit-max-content;
+    width: max-content;
+    align-self: center;
+    align-items: center;
+    transform: translateX(309%);
+}

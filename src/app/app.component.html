@@ -1,0 +1,16 @@
+<div class="div1">
+  <h1 id="id1">Tasks</h1>
+</div>
+<div class="div2">
+  <h1 id="id2">Task to do</h1>
+  <input [(ngModel)]="task1" type="text" placeholder="Enter" value="">
+  <button (click)="addtask()">Add</button>
+</div>
+<div class="div3">
+  <ul>
+          <li *ngFor="let task_new of list; let index=index;" class="t1"><td><input [(ngModel)]="tick" type="checkbox" name="tick" class="t1">&nbsp;
+            {{task_new}}&nbsp;
+          <button (click)="remove(index)" name="delete_item" class="t1">Delete</button></li>
+  </ul>
+</div>
+<router-outlet></router-outlet>
